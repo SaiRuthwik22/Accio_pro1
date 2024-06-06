@@ -8,12 +8,12 @@ let arr = [
 
 function PrintDeveloperbyMap() {
   //Write your code here , just console.log
-  arr.map((element)=>element["profession"]=="developer"?console.log(element["name"]):"")
+  arr.map((element)=>element["profession"]=="developer"?console.log(element):"")
 }
 
 function PrintDeveloperbyForEach() {
   //Write your code here , just console.log
-  arr.forEach((element)=>element["profession"]=="developer"?console.log(element["name"]):"")
+  arr.forEach((element)=>element["profession"]=="developer"?console.log(element):"")
 }
 
 function addData() {
